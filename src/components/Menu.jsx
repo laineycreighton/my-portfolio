@@ -40,11 +40,11 @@ export default function Menu() {
                         <img src={close} alt='close menu' />
                     </button>
                     <div className='menu-links'>
-                        <Link className='home-link' to="/dev">home</Link>
-                        <Link className='about-link' to="/dev">about</Link>
-                        <Link className='projects-link' to="/dev">projects</Link>
-                        <Link className='skills-link' to="/dev">skills</Link>
-                        <Link className='contact-link' to="/dev">contact</Link>
+                        <Link className='home-link' to="/">home</Link>
+                        <Link className='about-link' to="/about">about</Link>
+                        <Link className='projects-link' to="/projects">projects</Link>
+                        <Link className='skills-link' to="/skills">skills</Link>
+                        <Link className='contact-link' to="/contact">contact</Link>
                     </div>
                 </nav>
             )}

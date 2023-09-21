@@ -1,27 +1,36 @@
 //----- IMPORTS -----//
-import { Link } from 'react-router-dom';
 
 //CSS
 import '../assets/css/About.css';
 
+//Components
+import Menu from '../components/Menu';
+import Footer from '../components/Footer';
+
 //----- EXPORTS -----//
-export default function Header() {
+export default function About() {
 
     //Return
     return (
-        //---------- HEADER ----------//
-        <div className='main-header'>
+        <div className='about-page'>
 
-            {/*-- Nav --*/}
-            <nav className="nav-bar">
-                <Link className='developer-link' to="/dev">Developer</Link>
-            </nav>
+            {/* Menu */}
+            <Menu />
 
-            {/*-- Heading --*/}
-            <header>
-                <h1>Know CSS</h1>
-                <p>Explore and effortlessly copy CSS code snippets with this CSS cheatsheet, your go-to resource for streamlining web design and styling.</p>
-            </header>
+            <div className='about-main'>
+                {/*-- Heading --*/}
+                <header className='about-header'>
+                    <h2>ABOUT</h2>
+                </header>
+                <div className='bio'>
+                    <div>
+                        Hello, I'm Lainey Creighton, a passionate software developer with a strong foundation in hospitality and events management. With over eight years of experience in customer-centric environments, I have received a full stack we development certification to dive into the dynamic world of software development. I'm driven by curiosity, excited to merge creative problem-solving with precise programming, and dedicated to embracing challenges in this evolving industry.
+                    </div>
+                </div>
+            </div>
+
+            {/* Footer */}
+            <Footer />
         </div>
     );
 }

@@ -15,7 +15,6 @@ export default function Home() {
 
     //Return
     return (
-        //---------- BODY ----------//
         <div className='home'>
 
             {/* Menu */}
@@ -37,7 +36,7 @@ export default function Home() {
             </div>
 
             {/* Footer */}
-                <Footer />
+            <Footer />
         </div>
     )
 }

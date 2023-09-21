@@ -26,7 +26,7 @@
 
 /* MAIN */
 .home {
-    outline: blue dashed 3px;
+    /* outline: blue dashed 3px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -35,15 +35,18 @@
     height: 100vh;
 }
 
-.menu-container {
-    outline: blue dashed 3px;
-    width: 100%;
-}
-
 .heading-container {
-    outline: red dashed 3px;
+    /* outline: red dashed 3px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
 }
 
-.footer-container {
+/* .heading {
     outline: green dashed 3px;
-}
+} */
+
+/* .heading img {
+    outline: blue dashed 3px;
+} */

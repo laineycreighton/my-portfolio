@@ -1,4 +1,4 @@
-/* Colors */
+/* COLORS */
 :root {
     --dark: #3C3926;
     --light: #E0DAC9;
@@ -8,7 +8,7 @@
     --cabin: cabin;
 }
 
-/* Fonts */
+/* FONTS */
 @font-face {
     font-family: bernoru;
     src: url('../fonts/bernoru-blackultraexpanded.otf');
@@ -22,4 +22,55 @@
 @font-face {
     font-family: cabin;
     src: url('../fonts/Cabin-VariableFont_wdth\,wght.ttf');
+}
+
+/* MAIN */
+.about-page {
+    /* outline: blue dashed 3px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.about-main {
+    /* outline: red dashed 3px; */
+    height: 90%;
+}
+
+.about-header {
+    /* outline: blue dashed 3px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h2 {
+    font-family: var(--bernoru);
+    font-size: 50px;
+    color: var(--accent);
+    margin: 20px 0 20px 0;
+}
+
+.bio {
+    /* outline: green dashed 3px; */
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    width: 100%;
+    height: 100vh;
+}
+
+.bio div {
+    /* outline: white dashed 3px; */
+    font-family: var(--cabin);
+    font-size: 25px;
+    color: var(--light);
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 50px;
+    width: 57%;
 }
