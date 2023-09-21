@@ -1,14 +1,15 @@
-/* Colors */
+/* COLORS */
 :root {
     --dark: #3C3926;
     --light: #E0DAC9;
     --accent: #E2552A;
+    --clear: rgba(255, 255, 255, 0);
     --bernoru: bernoru;
     --jorick: jorick;
     --cabin: cabin;
 }
 
-/* Fonts */
+/* FONTS */
 @font-face {
     font-family: bernoru;
     src: url('../fonts/bernoru-blackultraexpanded.otf');
@@ -22,4 +23,83 @@
 @font-face {
     font-family: cabin;
     src: url('../fonts/Cabin-VariableFont_wdth\,wght.ttf');
+}
+
+/* MAIN */
+.skills-page {
+    /* outline: blue dashed 3px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.skills-header {
+    /* outline: blue dashed 3px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.skills {
+    /* outline: blue dashed 3px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.list {
+    /* outline: red dashed 3px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 0;
+    width: 70%;
+}
+
+h4 {
+    /* outline: blue dashed 2px; */
+    font-family: var(--cabin);
+    font-weight: bolder;
+    font-size: 25px;
+    color: var(--light);
+    width: 25%;
+}
+
+.resume {
+    background-color: var(--clear);
+    border: var(--light) solid 3px;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 15px 40px 15px 40px;
+}
+
+.resume a {
+    font-family: var(--cabin);
+    font-size: 25px;
+    color: var(--light);
+    text-decoration: none;
+}
+
+.skill-type {
+    /* outline: purple dashed 3px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+.list img {
+    height: 30px;
+    width: auto;
+    margin: 5px;
 }

@@ -1,14 +1,15 @@
-/* Colors */
+/* COLORS */
 :root {
     --dark: #3C3926;
     --light: #E0DAC9;
     --accent: #E2552A;
+    --clear: rgba(255, 255, 255, 0);
     --bernoru: bernoru;
     --jorick: jorick;
     --cabin: cabin;
 }
 
-/* Fonts */
+/* FONTS */
 @font-face {
     font-family: bernoru;
     src: url('../fonts/bernoru-blackultraexpanded.otf');

@@ -1,4 +1,4 @@
-/* Colors */
+/* COLORS */
 :root {
     --dark: #3C3926;
     --light: #E0DAC9;
@@ -9,7 +9,7 @@
     --cabin: cabin;
 }
 
-/* Fonts */
+/* FONTS */
 @font-face {
     font-family: bernoru;
     src: url('../fonts/bernoru-blackultraexpanded.otf');
