@@ -53,7 +53,7 @@ export default function Projects() {
             <div className='projects-main'>
                 {/*-- Heading --*/}
                 <header className='projects-header'>
-                    <h2>Projects</h2>
+                    <h2>PROJECTS</h2>
                 </header>
 
                 <div className='all-projects'>
