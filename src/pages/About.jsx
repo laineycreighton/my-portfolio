@@ -23,9 +23,9 @@ export default function About() {
                     <h2>ABOUT</h2>
                 </header>
                 <div className='bio'>
-                    <div>
-                        Hello, I'm Lainey Creighton, a passionate software developer with a strong foundation in hospitality and events management. With over eight years of experience in customer-centric environments, I have received a full stack we development certification to dive into the dynamic world of software development. I'm driven by curiosity, excited to merge creative problem-solving with precise programming, and dedicated to embracing challenges in this evolving industry.
-                    </div>
+                    <p>Hello, I'm Lainey Creighton, a passionate developer with a current focus in JavaScript and React, where I'm honing my skills to create engaging and interactive web experiences.</p>
+                    <p>Beyond the screen, I thrive in the great outdoors. When I'm not coding, you can often find me paddle boarding, rafting, camping, hiking, and exploring the beauty of nature. I believe that just like in coding, the best adventures are the ones where you embrace the journey.</p>
+                    <p className='thank-you'>Thank you for visiting my site, and feel free to connect with me for networking, collaboration, or to explore the exciting world of web development together!</p>
                 </div>
             </div>
 
