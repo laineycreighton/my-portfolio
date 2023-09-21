@@ -82,7 +82,7 @@ nav {
 .contact-link {
     /* outline: red dashed 3px; */
     font-family: var(--bernoru);
-    font-size: 30px;
+    font-size: 25px;
     color: var(--accent);
     text-align: right;
     text-decoration: none;

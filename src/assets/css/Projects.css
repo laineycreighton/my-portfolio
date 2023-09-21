@@ -23,3 +23,94 @@
     font-family: cabin;
     src: url('../fonts/Cabin-VariableFont_wdth\,wght.ttf');
 }
+
+/* MAIN */
+.projects-page {
+    /* outline: blue dashed 3px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.projects-header {
+    /* outline: blue dashed 3px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.all-projects {
+    /* outline: red dashed 3px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0 50px 0;
+}
+
+.project-grid {
+    /* outline: green dashed 3px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--jorick);
+    font-size: 25px;
+    text-align: center;
+    color: var(--dark);
+    height: 250px;
+    width: 250px;
+}
+
+.project-card:hover .project-links-container {
+    display: block;
+}
+
+.project-links-container {
+    display: none;
+}
+
+.project-links {
+    /* outline: green dashed 3px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-links a {
+    font-family: var(--cabin);
+    font-size: 20px;
+    color: var(--dark);
+    border: var(--dark) solid 2px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.project-card:nth-child(even) .project-links a:hover {
+    color: var(--light);
+}
+
+.project-card:nth-child(odd) .project-links a:hover {
+    color: var(--accent);
+}
+
+.project-card:nth-child(even) {
+    background-color: var(--accent);
+}
+
+.project-card:nth-child(odd) {
+    background-color: var(--light);
+}
