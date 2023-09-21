@@ -35,8 +35,9 @@ footer {
     /* outline: green dashed 3px; */
     display: flex;
     justify-content: center;
-    align-items:last baseline;
-    height: 100px;
+    align-items: center;
+    height: 50px;
+    width: 100%;
   }
   
   .tag {
@@ -54,4 +55,16 @@ footer {
   .my-name {
     text-decoration: none;
     color: var(--accent);
+  }
+
+  .separator {
+    height: 25px;
+    border: var(--light) solid 1px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+
+  .contact-icons a {
+    /* outline: purple dashed 3px; */
+    margin: 0 10px 0 10px;
   }

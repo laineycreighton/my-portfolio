@@ -37,9 +37,7 @@ export default function Home() {
             </div>
 
             {/* Footer */}
-            <div className='footer-container'>
                 <Footer />
-            </div>
         </div>
     )
 }
