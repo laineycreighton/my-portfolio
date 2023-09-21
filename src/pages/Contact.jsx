@@ -7,7 +7,6 @@ import '../assets/css/Contact.css';
 //Images
 import github from '../assets/images/github.svg';
 import linkedin from '../assets/images/linkedin.svg';
-import portfolio from '../assets/images/briefcase.svg';
 import email from '../assets/images/email.svg';
 
 //----- EXPORTS -----//
@@ -45,7 +44,6 @@ export default function Dev() {
                 <div className='contact'>
                     <a href='https://github.com/laineycreighton' target='_blank'><img src={github} alt='github logo' /></a>
                     <a href='https://www.linkedin.com/in/lainey-creighton/' target='_blank'><img src={linkedin} alt='linkedin logo' /></a>
-                    <a href='https://laineycreighton.netlify.app/' target='_blank'><img src={portfolio} alt='briefcase logo' /></a>
                     <a href={`mailto:${emailAddress}`} target='_blank'><img src={email} alt='email logo' /></a>
                 </div>
             </div>

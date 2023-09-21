@@ -6,6 +6,7 @@
     --bernoru: bernoru;
     --jorick: jorick;
     --cabin: cabin;
+    --wildeo: wildeo;
 }
 
 /* Fonts */
@@ -26,7 +27,7 @@
 
 @font-face {
     font-family: wildeo;
-    src: url('../fonts/Wildeoo\ FREE.otf');
+    src: url('../fonts/Wildeo.otf');
 }
 
 /*----- FOOTER -----*/
@@ -40,17 +41,17 @@ footer {
   
   .tag {
     /* outline: blue dashed 3px; */
-    font-family: mooli;
+    font-family: var(--cabin);
     font-size: 15px;
-    color: var(--dark);
+    color: var(--accent);
   }
   
   .passion {
-    font-family: wildeo;
+    font-family: var(--wildeo);
     font-size: 40px;
   }
   
   .my-name {
     text-decoration: none;
-    color: var(--dark);
+    color: var(--accent);
   }

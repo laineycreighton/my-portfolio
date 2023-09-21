@@ -28,22 +28,18 @@ export default function Menu() {
         <div className='nav-menu'>
 
             {/*-- Nav --*/}
-            <div>
-                {!isMenuVisible && (
-                    <button onClick={openMenu} >
-                        <img src={open} alt='open menu' />
-                    </button>
-                )}
-            </div>
+            {!isMenuVisible && (
+                <button className='menu-open' onClick={openMenu} >
+                    <img src={open} alt='open menu' />
+                </button>
+            )}
 
             {isMenuVisible && (
                 <nav>
-                    <div>
-                        <button onClick={closeMenu} >
-                            <img src={close} alt='close menu' />
-                        </button>
-                    </div>
-                    <div>
+                    <button className='menu-close' onClick={closeMenu} >
+                        <img src={close} alt='close menu' />
+                    </button>
+                    <div className='menu-links'>
                         <Link className='home-link' to="/dev">home</Link>
                         <Link className='about-link' to="/dev">about</Link>
                         <Link className='projects-link' to="/dev">projects</Link>

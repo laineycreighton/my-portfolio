@@ -25,9 +25,10 @@
 }
 
 /*----- ROOT -----*/
-html, body {
+html, 
+body,
+#root {
   background-color: var(--dark);
-  font-family: mooli;
   padding: 0;
   margin: 0;
   height: 100%;

@@ -10,12 +10,7 @@ function App() {
 
   //Return
   return (
-    //---------- MAIN ----------//
-    <div className="main">
-
-      {/* Outlet */}
-      <Outlet />
-    </div>
+    <Outlet />
   )
 }
 

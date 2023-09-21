@@ -1,4 +1,4 @@
-/* Colors */
+/* COLORS */
 :root {
     --dark: #3C3926;
     --light: #E0DAC9;
@@ -8,7 +8,7 @@
     --cabin: cabin;
 }
 
-/* Fonts */
+/* FONTS */
 @font-face {
     font-family: bernoru;
     src: url('../fonts/bernoru-blackultraexpanded.otf');
@@ -22,4 +22,28 @@
 @font-face {
     font-family: cabin;
     src: url('../fonts/Cabin-VariableFont_wdth\,wght.ttf');
+}
+
+/* MAIN */
+.home {
+    outline: blue dashed 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu-container {
+    outline: blue dashed 3px;
+    width: 100%;
+}
+
+.heading-container {
+    outline: red dashed 3px;
+}
+
+.footer-container {
+    outline: green dashed 3px;
 }

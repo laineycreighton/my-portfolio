@@ -19,9 +19,7 @@ export default function Home() {
         <div className='home'>
 
             {/* Menu */}
-            <nav>
-                <Menu />
-            </nav>
+            <Menu />
 
             {/* Cards */}
             <div className='heading-container'>
@@ -39,7 +37,9 @@ export default function Home() {
             </div>
 
             {/* Footer */}
-            <Footer />
+            <div className='footer-container'>
+                <Footer />
+            </div>
         </div>
     )
 }
