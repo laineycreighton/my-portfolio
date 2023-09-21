@@ -1,70 +1,83 @@
 /* Colors */
 :root {
-    --dark: #3C3926;
-    --light: #E0DAC9;
-    --accent: #E2552A;
-    --bernoru: bernoru;
-    --jorick: jorick;
-    --cabin: cabin;
-    --wildeo: wildeo;
+  --dark: #3C3926;
+  --light: #E0DAC9;
+  --accent: #E2552A;
+  --bernoru: bernoru;
+  --jorick: jorick;
+  --cabin: cabin;
+  --wildeo: wildeo;
 }
 
 /* Fonts */
 @font-face {
-    font-family: bernoru;
-    src: url('../fonts/bernoru-blackultraexpanded.otf');
+  font-family: bernoru;
+  src: url('../fonts/bernoru-blackultraexpanded.otf');
 }
 
 @font-face {
-    font-family: jorick;
-    src: url('../fonts/Jorick-Regular.ttf');
+  font-family: jorick;
+  src: url('../fonts/Jorick-Regular.ttf');
 }
 
 @font-face {
-    font-family: cabin;
-    src: url('../fonts/Cabin-VariableFont_wdth\,wght.ttf');
+  font-family: cabin;
+  src: url('../fonts/Cabin-VariableFont_wdth\,wght.ttf');
 }
 
 @font-face {
-    font-family: wildeo;
-    src: url('../fonts/Wildeo.otf');
+  font-family: wildeo;
+  src: url('../fonts/Wildeo.otf');
 }
 
 /*----- FOOTER -----*/
 footer {
-    /* outline: green dashed 3px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-  }
-  
-  .tag {
-    /* outline: blue dashed 3px; */
-    font-family: var(--cabin);
-    font-size: 15px;
-    color: var(--accent);
-  }
-  
-  .passion {
-    font-family: var(--wildeo);
-    font-size: 40px;
-  }
-  
-  .my-name {
-    text-decoration: none;
-    color: var(--accent);
-  }
+  /* outline: green dashed 3px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  z-index: 5000;
+}
 
-  .separator {
+.tag {
+  /* outline: blue dashed 3px; */
+  font-family: var(--cabin);
+  font-size: 15px;
+  color: var(--accent);
+}
+
+.passion {
+  font-family: var(--wildeo);
+  font-size: 40px;
+}
+
+.my-name {
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.separator {
+  height: 25px;
+  border: var(--light) solid 1px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.contact-icons a {
+  /* outline: purple dashed 3px; */
+  margin: 0 10px 0 10px;
+}
+
+.contact-icons img {
+    border: var(--clear) solid 2px;
+    border-radius: 10px;
     height: 25px;
-    border: var(--light) solid 1px;
-    border-radius: 5px;
-    margin-left: 10px;
-  }
+    padding: 5px;
+}
 
-  .contact-icons a {
-    /* outline: purple dashed 3px; */
-    margin: 0 10px 0 10px;
-  }
+.contact-icons img:hover {
+  /* outline: purple dashed 3px; */
+  border: var(--light) solid 2px;
+}

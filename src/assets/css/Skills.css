@@ -74,18 +74,22 @@ h4 {
 }
 
 .resume {
-    background-color: var(--clear);
-    border: var(--light) solid 3px;
+    background-color: var(--light);
+    border: var(--accent) solid 3px;
     border-radius: 10px;
     margin-top: 5px;
-    padding: 15px 40px 15px 40px;
+    padding: 5px 25px 5px 25px;
 }
 
 .resume a {
-    font-family: var(--cabin);
-    font-size: 25px;
-    color: var(--light);
+    font-family: var(--jorick);
+    font-size: 30px;
+    color: var(--accent);
     text-decoration: none;
+}
+
+.resume:hover {
+    background-color: var(--clear);
 }
 
 .skill-type {

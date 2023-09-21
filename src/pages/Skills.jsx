@@ -45,7 +45,7 @@ export default function About() {
             <div className='skills'>
                 <button className='resume'>
                     <a href={resume} download="lainey-creighton-resume.pdf">
-                        RESUME
+                        resume
                     </a>
                 </button>
                 <div className='list'>

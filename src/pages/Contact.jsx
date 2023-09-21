@@ -16,7 +16,9 @@ import Footer from '../components/Footer';
 //----- EXPORTS -----//
 export default function Home() {
 
-    const emailAddress = 'dev.lainey@gmail.com';
+    const mygithub = 'https://github.com/laineycreighton';
+    const mylinkedin = 'https://www.linkedin.com/in/lainey-creighton/';
+    const myemail = 'dev.lainey@gmail.com';
 
     //Return
     return (
@@ -28,16 +30,16 @@ export default function Home() {
             {/*-- Heading --*/}
             <div className='contact-header'>
                 <h5>Let's work together</h5>
-                <a className='hello' href={emailAddress} target='_blank' >
+                <a className='hello' href={`mailto:${myemail}`} target='_blank' >
                     say hello
                 </a>
             </div>
 
             {/* Contact */}
             <div className='contact-links'>
-                <img src={github} />
-                <img src={linkedin} />
-                <img src={email} />
+                <a href={mygithub} target='_blank' ><img src={github} alt='github' /></a>
+                <a href={mylinkedin} target='_blank' ><img src={linkedin} alt='linkedin' /></a>
+                <a href={myemail} target='_blank' ><img src={email} alt='email' /></a>
             </div>
         </div>
     )

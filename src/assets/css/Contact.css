@@ -54,7 +54,7 @@ h5 {
     font-family: var(--jorick);
     font-size: 30px;
     color: var(--accent);
-    background-color: var(--clear);
+    background-color: var(--light);
     border: var(--accent) solid 2px;
     border-radius: 10px;
     text-decoration: none;
@@ -63,7 +63,7 @@ h5 {
 }
 
 .hello:hover {
-    background-color: var(--light);
+    background-color: var(--clear);
 }
 
 .contact-links {
