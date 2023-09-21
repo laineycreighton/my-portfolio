@@ -1,14 +1,15 @@
-/* Colors */
+/* COLORS */
 :root {
     --dark: #3C3926;
     --light: #E0DAC9;
     --accent: #E2552A;
+    --clear: rgba(255, 255, 255, 0);
     --bernoru: bernoru;
     --jorick: jorick;
     --cabin: cabin;
 }
 
-/* Fonts */
+/* FONTS */
 @font-face {
     font-family: bernoru;
     src: url('../fonts/bernoru-blackultraexpanded.otf');
@@ -22,4 +23,65 @@
 @font-face {
     font-family: cabin;
     src: url('../fonts/Cabin-VariableFont_wdth\,wght.ttf');
+}
+
+.contact-page {
+    outline: blue dashed 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 100px 0;
+}
+
+h5 {
+    /* outline: green dashed 2px; */
+    font-family: var(--cabin);
+    font-size: 110px;
+    color: var(--light);
+    margin: 0;
+}
+
+.hello {
+    font-family: var(--jorick);
+    font-size: 30px;
+    color: var(--accent);
+    background-color: var(--clear);
+    border: var(--accent) solid 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px 20px 5px 20px;
+}
+
+.hello:hover {
+    background-color: var(--light);
+}
+
+.contact-links {
+    /* outline: blue dashed 3px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+.contact-links img {
+    height: 50px;
+    border: var(--clear) solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.contact-links img:hover {
+    border: var(--light) solid 2px;
 }
