@@ -30,9 +30,8 @@
     /* outline: blue dashed 3px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -42,6 +41,19 @@
     justify-content: center;
     align-items: center;
     margin: 0;
+}
+
+.projects-header img {
+    width: 75px;
+}
+
+.projects-main {
+    /* outline: red dashed 3px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
 }
 
 .all-projects {

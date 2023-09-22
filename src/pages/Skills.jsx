@@ -4,6 +4,7 @@
 import '../assets/css/Skills.css';
 
 //Images
+import star from '../assets/images/star.png';
 import javascript from '../assets/images/javascript.png';
 import react from '../assets/images/react.png';
 import html from '../assets/images/html.png';
@@ -38,16 +39,12 @@ export default function About() {
 
             {/*-- Heading --*/}
             <header className='skills-header'>
+                <img src={star} alt='star' />
                 <h2>SKILLS</h2>
             </header>
 
             {/*-- Skills --*/}
-            <div className='skills'>
-                <button className='resume'>
-                    <a href={resume} download="lainey-creighton-resume.pdf">
-                        resume
-                    </a>
-                </button>
+            <div className='skills-main'>
                 <div className='list'>
                     <div className='skill-type'>
                         <h4>FRONT END</h4>
@@ -84,6 +81,11 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+                <button className='resume'>
+                    <a href={resume} download="lainey-creighton-resume.pdf">
+                        resume
+                    </a>
+                </button>
             </div>
 
 

@@ -4,6 +4,7 @@
 import '../assets/css/Home.css';
 
 //Images
+import star from '../assets/images/star.png';
 import header from '../assets/images/header.png';
 
 //Components
@@ -20,18 +21,14 @@ export default function Home() {
             {/* Menu */}
             <Menu />
 
-            {/* Cards */}
+            {/* Heading */}
             <div className='heading-container'>
-                {/* <div>
-                    <div>
-                        <h1>HI, I'M LAINEY</h1>
-                    </div>
-                    <div>
-                        <p>full stack developer</p>
-                    </div>
-                </div> */}
-                <div className='heading'>
-                    <img src={header} alt='heading placeholder' />
+                <div className='intro'>
+                    <h1>HI, I'M LAINEY</h1>
+                    <p>full stack developer</p>
+                </div>
+                <div className='rotating-star'>
+                    <img src={star} alt='star' />
                 </div>
             </div>
 

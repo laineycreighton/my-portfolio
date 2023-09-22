@@ -3,6 +3,9 @@
 //CSS
 import '../assets/css/Projects.css';
 
+//Images
+import star from '../assets/images/star.png';
+
 //Components
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
@@ -50,12 +53,13 @@ export default function Projects() {
             {/* Menu */}
             <Menu />
 
-            <div className='projects-main'>
-                {/*-- Heading --*/}
-                <header className='projects-header'>
-                    <h2>PROJECTS</h2>
-                </header>
+            {/*-- Heading --*/}
+            <header className='projects-header'>
+                <img src={star} alt='star' />
+                <h2>PROJECTS</h2>
+            </header>
 
+            <div className='projects-main'>
                 <div className='all-projects'>
                     <div className="project-grid">
                         {projects.map((project) => (
@@ -63,8 +67,8 @@ export default function Projects() {
                                 <h3>{project.title}</h3>
                                 <div className='project-links-container'>
                                     <div className='project-links'>
-                                    <a href={project.website} >website</a>
-                                    <a href={project.repo} >repo</a>
+                                        <a href={project.website} >website</a>
+                                        <a href={project.repo} >repo</a>
                                     </ div>
                                 </div>
                             </div>

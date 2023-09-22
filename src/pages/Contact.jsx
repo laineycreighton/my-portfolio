@@ -8,10 +8,10 @@ import '../assets/css/Contact.css';
 import github from '../assets/images/github.svg';
 import linkedin from '../assets/images/linkedin.svg';
 import email from '../assets/images/email.svg';
+import star from '../assets/images/star.png';
 
 //Components
 import Menu from '../components/Menu';
-import Footer from '../components/Footer';
 
 //----- EXPORTS -----//
 export default function Home() {

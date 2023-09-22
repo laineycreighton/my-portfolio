@@ -30,16 +30,10 @@
     /* outline: blue dashed 3px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 100vh;
 }
-
-/* .about-main {
-    outline: red dashed 3px;
-    height: 90%;
-} */
 
 .about-header {
     /* outline: blue dashed 3px; */
@@ -49,11 +43,24 @@
     margin: 0;
 }
 
+.about-header img {
+    width: 75px;
+}
+
 h2 {
     font-family: var(--bernoru);
-    font-size: 50px;
+    font-size: 75px;
     color: var(--accent);
-    margin: 20px 0 20px 0;
+    margin: 20px 0 20x 0;
+}
+
+.about-main {
+    /* outline: red dashed 3px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
 }
 
 .bio {
@@ -69,7 +76,7 @@ h2 {
 .bio p {
     /* outline: white dashed 3px; */
     font-family: var(--cabin);
-    font-size: 20px;
+    font-size: 25px;
     color: var(--light);
     text-align: center;
     line-height: 1.5;
