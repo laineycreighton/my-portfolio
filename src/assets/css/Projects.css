@@ -147,6 +147,7 @@
     .project-grid {
         /* outline: green dashed 3px; */
         grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 50px;
     }
 
     /*-- MQ: GRID CARD --*/
