@@ -19,16 +19,18 @@ export default function Footer() {
     //Return
     return (
         //---------- FOOTER ----------//
-        <footer>
-            <div>
-                <p className='tag'>MADE WITH <span className='passion'>Passion</span> BY <Link className='my-name' to="/dev">LAINEY CREIGHTON</Link></p>
-            </div>
-            <div className='separator'></div>
-            <div className='contact-icons'>
-                <a href={mygithub} target='_blank' ><img src={github} alt='github' /></a>
-                <a href={mylinkedin} target='_blank' ><img src={linkedin} alt='linkedin' /></a>
-                <a href={myemail} target='_blank' ><img src={email} alt='email' /></a>
-            </div>
-        </footer>
+        <div className='footer-container'>
+            <footer>
+                <div>
+                    <p className='tag'>MADE WITH <span className='passion'>Passion</span> BY <Link className='my-name' to="/dev">LAINEY CREIGHTON</Link></p>
+                </div>
+                <div className='separator'></div>
+                <div className='contact-icons'>
+                    <a href={mygithub} target='_blank' ><img src={github} alt='github' /></a>
+                    <a href={mylinkedin} target='_blank' ><img src={linkedin} alt='linkedin' /></a>
+                    <a href={myemail} target='_blank' ><img src={email} alt='email' /></a>
+                </div>
+            </footer>
+        </div>
     )
 }
