@@ -30,7 +30,7 @@
     /* outline: blue dashed 3px; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100vh;
 }
@@ -45,6 +45,7 @@
 
 .projects-header img {
     width: 75px;
+    margin-right: 5px;
 }
 
 .projects-main {
@@ -127,4 +128,57 @@
 
 .project-card:nth-child(odd) {
     background-color: var(--light);
+}
+
+/*---------- MEDIA QUERIES ----------*/
+@media screen and (min-width: 430px) and (min-height: 932px) {
+
+    /*-- MQ: HEADING --*/
+    .projects-header {
+        margin-top: 100px;
+    }
+
+    /*-- MQ: STAR --*/
+    .projects-header img {
+        width: 50px;
+    }
+
+    /*-- MQ: GRID --*/
+    .project-grid {
+        /* outline: green dashed 3px; */
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*-- MQ: GRID CARD --*/
+    .project-card {
+        /* outline: green dashed 3px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        width: 375px;
+    }
+
+    /*-- MQ: PROJECT HEADING --*/
+    h3 {
+        /* outline: red dashed 2px; */
+        font-size: 30px;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    /*-- MQ: LINKS CONTAINER --*/
+    .project-links-container {
+        display: block;
+    }
+
+    /*-- MQ: LINKS --*/
+    .project-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

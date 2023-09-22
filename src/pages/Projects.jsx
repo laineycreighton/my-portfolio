@@ -35,7 +35,7 @@ export default function Projects() {
             website: 'https://elenagurchinskaia.github.io/upstream-travel/'
         },
         {
-            title: 'Lake Tahoe Landing Page',
+            title: 'Lake Tahoe',
             repo: 'https://github.com/laineycreighton/landing-page',
             website: 'https://laineycreighton.github.io/landing-page/'
         },
