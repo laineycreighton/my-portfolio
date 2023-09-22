@@ -30,7 +30,7 @@
     /* outline: blue dashed 3px; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100vh;
 }
@@ -89,4 +89,34 @@ h2 {
     border: var(--accent) solid 2px;
     padding: 10px;
     width: 80% !important;
+}
+
+/*---------- MEDIA QUERIES ----------*/
+@media screen and (min-width: 430px) and (min-height: 932px) {
+
+    /*-- MQ: HEADING --*/
+    .about-header {
+        margin-top: 80px;
+    }
+
+    .about-header img {
+        width: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .about-main {
+        margin-bottom: 50px;
+    }
+
+    .bio p {
+        /* outline: white dashed 3px; */
+        font-size: 25px;
+        width: 85%;
+        margin: 15px;
+    }
+
 }
