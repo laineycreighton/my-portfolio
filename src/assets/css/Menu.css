@@ -100,7 +100,7 @@ nav {
 }
 
 /*---------- MEDIA QUERIES ----------*/
-@media screen and (min-width: 430px) and (min-height: 932px) {
+@media screen and (max-width: 430px) and (max-height: 932px) {
 
     /*--- MQ: MENU ---*/
     nav {
