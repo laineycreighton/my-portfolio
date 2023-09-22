@@ -25,7 +25,7 @@
     src: url('../fonts/Cabin-VariableFont_wdth\,wght.ttf');
 }
 
-/* MAIN */
+/*---------- SKILLS PAGE ----------*/
 .skills-page {
     /* outline: blue dashed 3px; */
     display: flex;
@@ -123,11 +123,13 @@ h4 {
         width: 50px;
     }
 
+    /*-- MQ: MAIN --*/
     .skills-main {
         /* outline: blue dashed 2px; */
         flex-direction: column-reverse;
     }
 
+    /*-- MQ: SKILLS LIST --*/
     .list {
         /* outline: red dashed 3px; */
         justify-content: center;
@@ -136,6 +138,7 @@ h4 {
         margin: 30px 0 100px 0;
     }
 
+    /*-- MQ: SKILL TYPE --*/
     .skill-type {
         /* outline: purple dashed 3px; */
         flex-direction: column;
@@ -150,6 +153,7 @@ h4 {
         align-items: center;
     }
 
+    /*-- MQ: SKILLS TYPE TITLE --*/
     h4 {
         /* outline: blue dashed 2px; */
         text-align: left;
@@ -157,30 +161,10 @@ h4 {
         margin: 45px 0 5px 0;
     }
 
+    /*-- MQ: RESUME --*/
     .resume:visited {
         background-color: var(--clear);
     }
     
 
 }
-
-
-
-
-
-
-.resume {
-    background-color: var(--light);
-    border: var(--accent) solid 3px;
-    border-radius: 10px;
-    margin-top: 50px;
-    padding: 5px 25px 5px 25px;
-}
-
-.resume a {
-    font-family: var(--jorick);
-    font-size: 30px;
-    color: var(--accent);
-    text-decoration: none;
-}
-

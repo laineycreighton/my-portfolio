@@ -29,7 +29,7 @@ export default function Home() {
 
             {/*-- Heading --*/}
             <div className='contact-header'>
-                <h5>Let's work together</h5>
+                <h5>Let's work together.</h5>
                 <a className='hello' href={`mailto:${myemail}`} target='_blank' >
                     say hello
                 </a>

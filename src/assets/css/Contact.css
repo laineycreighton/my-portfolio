@@ -85,3 +85,27 @@ h5 {
 .contact-links img:hover {
     border: var(--light) solid 2px;
 }
+
+/*---------- MEDIA QUERIES ----------*/
+@media screen and (min-width: 430px) and (min-height: 932px) {
+
+    /*-- MQ: HEADING --*/
+    h5 {
+        /* outline: blue dashed 3px; */
+        font-size: 90px;
+        width: 80%;
+    }
+
+    /*-- MQ: HELLO BUTTON --*/
+    .hello {
+        font-size: 40px;
+        border: var(--accent) solid 4px;
+        margin-top: 30px;
+    }
+
+    /*-- MQ: CONTACT ICONS --*/
+    .contact-links a {
+        margin: 0 20px 0 20px;
+    }
+
+}
