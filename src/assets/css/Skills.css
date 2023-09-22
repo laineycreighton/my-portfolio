@@ -44,8 +44,19 @@
 }
 
 .skills-header img {
+    animation: spin 20s linear infinite;
     width: 75px;
     margin-right: 5px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .skills-main {
