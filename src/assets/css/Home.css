@@ -24,14 +24,13 @@
     src: url('../fonts/Cabin-VariableFont_wdth\,wght.ttf');
 }
 
-/* MAIN */
+/*---------- MAIN ----------*/
 .home {
     /* outline: blue dashed 3px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -74,3 +73,54 @@ h1 {
       transform: rotate(360deg);
     }
   }
+
+  /* FONTS */
+@font-face {
+    font-family: bernoru;
+    src: url('../fonts/bernoru-blackultraexpanded.otf');
+}
+
+@font-face {
+    font-family: jorick;
+    src: url('../fonts/Jorick-Regular.ttf');
+}
+
+@font-face {
+    font-family: cabin;
+    src: url('../fonts/Cabin-VariableFont_wdth\,wght.ttf');
+}
+
+/*---------- MEDIA QUERIES ----------*/
+@media screen and (min-width: 430px) and (min-height: 932px) {
+
+    /*--- MQ: HEADING ---*/
+    
+    .heading-container {
+        /* outline: green dashed 2px; */
+        flex-direction: column;
+        width: 80%;
+    }
+
+    h1 {
+        /* outline: blue dashed 2px; */
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .intro p {
+        font-size: 35px;
+        text-align: left;
+    }
+    
+    .rotating-star img {
+        margin-top: 20px;
+        width: 80px;
+    }
+
+}
+
+
+
+
+
+
