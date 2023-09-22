@@ -35,11 +35,13 @@
 }
 
 .contact-header {
+    /* outline: green dashed 2px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 0 100px 0;
+    width: 100%;
 }
 
 h5 {
