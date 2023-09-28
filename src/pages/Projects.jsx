@@ -25,9 +25,9 @@ export default function Projects() {
             website: 'https://knowcss.netlify.app/'
         },
         {
-            title: 'enDEVors',
-            repo: 'https://github.com/ssherp/EnDEVor',
-            website: 'https://endevor-3d604fa0490c.herokuapp.com/'
+            title: 'Secureon',
+            repo: 'https://github.com/laineycreighton/secureon',
+            website: 'https://secureon.netlify.app/'
         },
         {
             title: 'Upstream Travel',
