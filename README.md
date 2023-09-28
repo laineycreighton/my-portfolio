@@ -1,4 +1,4 @@
-# Know CSS
+# Lainey Creighton | Portfolio
 
 ## Table of Contents
 - [Description](#description)
@@ -12,7 +12,7 @@
 
 ## Description
 
-Introducing Know CSS – your go-to resource for mastering the art of Cascading Style Sheets (CSS) effortlessly. This user-friendly front-end web CSS Cheatsheet application, meticulously crafted using React Vite, is designed to help both novice and experienced web developers create stunning, pixel-perfect designs with ease.
+Get to know me and see my work!
 
 <br>
 
@@ -31,7 +31,12 @@ Introducing Know CSS – your go-to resource for mastering the art of Cascading 
 **Front End**
 <br>
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) &nbsp;&nbsp;&nbsp;&nbsp; ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) &nbsp;&nbsp;&nbsp;&nbsp; ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) &nbsp;&nbsp;&nbsp;&nbsp; ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) &nbsp;&nbsp;&nbsp;&nbsp; ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) &nbsp;&nbsp;&nbsp;&nbsp; ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) &nbsp;&nbsp;&nbsp;&nbsp; 
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) &nbsp;&nbsp;&nbsp;&nbsp; 
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) &nbsp;&nbsp;&nbsp;&nbsp; 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) &nbsp;&nbsp;&nbsp;&nbsp; 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) &nbsp;&nbsp;&nbsp;&nbsp; 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 <br>
 
 **Deployment**
@@ -60,9 +65,11 @@ Introducing Know CSS – your go-to resource for mastering the art of Cascading 
 
 ## Deployment
 
-Website URL: [Know CSS](https://knowcss.netlify.app/)
+Website URL: [Lainey Creighton](https://laineycreighton.com/)
 
-![alt text](./src/assets/images/know-css-home.png)
+![alt text](./src/assets/images/homepage.png)
+![alt text](./src/assets/images/projectspage.png)
+![alt text](./src/assets/images/contactpage.png)
 
 <br>
 
