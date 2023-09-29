@@ -4,7 +4,6 @@
 - [Description](#description)
 - [Learning Points](#learning-points)
 - [Technology Used](#technology-used)
-- [How to Get Started](#how-to-get-started)
 - [Deployment](#deployment)
 - [Authors](#authors)
 - [Contributing](#contributing)
@@ -12,7 +11,13 @@
 
 ## Description
 
-Get to know me and see my work!
+Welcome to my portfolio! I'm passionate about problem-solving and creativity, which led me to pursue a career in full stack web development. My primary focus is on JavaScript and React for front-end development, and I'm well-versed in backend technologies, including SQL, MongoDB, and GraphQL.
+
+One of my proudest achievements is earning my Full Stack Web Development Certificate from UC Berkeley, showcasing my dedication to continuous learning and skill development.
+
+With a background in events and hospitality management, I've honed leadership skills over eight years. As I transition into software development, my aspiration is to leverage this experience to lead and nurture strong, cohesive development teams while climbing the ladder in the tech industry.
+
+Thank you for visiting my portfolio, and I'm excited to share my projects and contributions with you.
 
 <br>
 
@@ -43,24 +48,6 @@ Get to know me and see my work!
 <br>
 
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
-<br>
-
-| Technology Used | Resource URL                                                      |
-| --------------- | ----------------------------------------------------------------- |
-| Get Started With Netlify | [https://docs.netlify.com/get-started/](https://docs.netlify.com/get-started/) |
-| React Quick Start | [https://react.dev/learn](https://react.dev/learn) |
-| CSS Colors | [https://www.w3schools.com/cssref/css_colors.php](https://www.w3schools.com/cssref/css_colors.php) |
-| Font | [https://developer.mozilla.org/en-US/docs/Web/CSS/font](https://developer.mozilla.org/en-US/docs/Web/CSS/font) |
-| A Complete Guide to Flexbox | [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) |
-| A Complete Guide to CSS Grid | [https://css-tricks.com/snippets/css/complete-guide-grid/](https://css-tricks.com/snippets/css/complete-guide-grid/) |
-
-<br>
-
-## How to Get Started
-
-1. Clone this repository to your local machine.
-2. Navigate to the project directory and install the required dependencies using `npm install` and `npm run build`.
-3. Launch the application with `npm run dev` and access it through your preferred web browser.
 <br>
 
 ## Deployment
