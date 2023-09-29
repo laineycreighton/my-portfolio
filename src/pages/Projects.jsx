@@ -67,8 +67,8 @@ export default function Projects() {
                                 <h3>{project.title}</h3>
                                 <div className='project-links-container'>
                                     <div className='project-links'>
-                                        <a href={project.website} >website</a>
-                                        <a href={project.repo} >repo</a>
+                                        <a href={project.website} target='blank' >website</a>
+                                        <a href={project.repo} target='blank' >repo</a>
                                     </ div>
                                 </div>
                             </div>

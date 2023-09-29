@@ -27,7 +27,6 @@ Thank you for visiting my portfolio, and I'm excited to share my projects and co
 - How to use React Components.
 - How to style a React application.
 - How to use configure React paths.
-- How to create a carousel using React.
 
 <br>
 
