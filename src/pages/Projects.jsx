@@ -49,6 +49,11 @@ export default function Projects() {
             repo: 'https://github.com/laineycreighton/code-quiz',
             website: 'https://laineycreighton.github.io/code-quiz/'
         },
+        {
+            title: 'Work Day Scheduler',
+            repo: 'https://github.com/laineycreighton/work-schedule',
+            website: 'https://laineycreighton.github.io/work-schedule/'
+        },
     ];
 
     //Return
