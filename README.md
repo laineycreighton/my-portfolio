@@ -5,7 +5,7 @@
 - [Learning Points](#learning-points)
 - [Technology Used](#technology-used)
 - [Deployment](#deployment)
-- [Authors](#authors)
+- [Author](#author)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -67,7 +67,7 @@ Website URL: [Lainey Creighton](https://laineycreighton.com/)
 
 [![Email](./src/assets/images/email.svg)](mailto:dev.lainey@gmail.com) &nbsp;&nbsp;&nbsp;&nbsp; 
 [![LinkedIn](./src/assets/images/linkedin.svg)](https://www.linkedin.com/in/lainey-creighton/) &nbsp;&nbsp;&nbsp;&nbsp; 
-[![Portfolio](./src/assets/images/briefcase.svg)](https://laineycreighton.netlify.app/) &nbsp;&nbsp;&nbsp;&nbsp; 
+[![Portfolio](./src/assets/images/globe.svg)](https://laineycreighton.com/) &nbsp;&nbsp;&nbsp;&nbsp; 
 [![GitHub](./src/assets/images/github.svg)](https://github.com/laineycreighton)
 
 <br>
