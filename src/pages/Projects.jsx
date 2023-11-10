@@ -25,11 +25,6 @@ export default function Projects() {
             website: 'https://secureon.netlify.app/'
         },
         {
-            title: 'Note Taker',
-            repo: 'https://github.com/laineycreighton/note-taker',
-            website: 'https://note-taker-lc-f3a7a9f96b3c.herokuapp.com/'
-        },
-        {
             title: 'Upstream Travel',
             repo: 'https://github.com/elenagurchinskaia/upstream-travel',
             website: 'https://elenagurchinskaia.github.io/upstream-travel/'
