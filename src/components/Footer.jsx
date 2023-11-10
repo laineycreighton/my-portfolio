@@ -21,10 +21,10 @@ export default function Footer() {
         //---------- FOOTER ----------//
         <div className='footer-container'>
             <footer>
-                <div>
+                {/* <div>
                     <p className='tag'>MADE WITH <span className='passion'>Passion</span> BY <Link className='my-name' to="/dev">LAINEY CREIGHTON</Link></p>
                 </div>
-                <div className='separator'></div>
+                <div className='separator'></div> */}
                 <div className='contact-icons'>
                     <a href={mygithub} target='_blank' ><img src={github} alt='github' /></a>
                     <a href={mylinkedin} target='_blank' ><img src={linkedin} alt='linkedin' /></a>
