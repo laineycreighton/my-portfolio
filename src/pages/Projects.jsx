@@ -15,11 +15,6 @@ export default function Projects() {
 
     const projects = [
         {
-            title: 'Sasquest',
-            repo: 'https://github.com/laineycreighton/sasquest',
-            website: 'https://sasquest-52c8b076a68a.herokuapp.com/'
-        },
-        {
             title: 'Know CSS',
             repo: 'https://github.com/laineycreighton/know-css',
             website: 'https://knowcss.netlify.app/'
